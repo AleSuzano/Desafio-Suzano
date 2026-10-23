@@ -1,10 +1,10 @@
-# 📦 Sistema de Gestão de Produtos - Frontend
+# Sistema de Gestão de Produtos - Frontend
 
 Aplicação web desenvolvida com **Next.js**, **TypeScript** e **Tailwind CSS** para o gerenciamento de produtos, com cadastro em tempo real, busca com filtros dinâmicos, ordenação e testes de snapshot.
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Framework:** Next.js 14+ (App Router)
 - **Linguagem:** TypeScript
@@ -14,7 +14,7 @@ Aplicação web desenvolvida com **Next.js**, **TypeScript** e **Tailwind CSS** 
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 1. **Listagem de Produtos:** Exibição com nome, categoria, preço, descrição e imagem [3].
 2. **Cadastro em Tempo Real:** Formulário para inserção de novos produtos [1, 3].
@@ -24,7 +24,7 @@ Aplicação web desenvolvida com **Next.js**, **TypeScript** e **Tailwind CSS** 
 
 ---
 
-## ⚙️ Como Rodar o Projeto Localmente
+## Como Rodar o Projeto Localmente
 
 ### Pré-requisitos
 - Node.js (v18 ou superior)
@@ -55,6 +55,6 @@ Para rodar a suíte de testes:
 npm test
 
 ________________________________________
-🛠️ Decisões de Arquitetura
+ Decisões de Arquitetura
 Context API: Optou-se pela Context API para manter o gerenciamento de estado leve, limpo e direto, atendendo aos requisitos sem introduzir complexidade desnecessária de bibliotecas externas.
 Componentização: O código foi estruturado de forma modular (dividido em components, context, types e services), respeitando os princípios de código limpo.
